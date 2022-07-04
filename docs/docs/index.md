@@ -1,26 +1,47 @@
-# MkDocs Quickstart
->  Started template for a MkDocs docs site on GH Pages - including CI 
+# Homepage
 
-[![Repo stars](https://img.shields.io/github/stars/MichaelCurrin/mkdocs-quickstart?style=social)](https://github.com/MichaelCurrin/mkdocs-quickstart)
+This project is a part of the group project for the course "IoT and Embedded Systems".
+It aims at recording weather data at the start of the BMX Course used by Team-NL to train their riders for the Olympic games.
+In that sport the start is an important factor towards victory.
+During training the conditions greatly influence their performance coming down the ramp.
+The goal would be to homogenize their times in relation to the weather.
 
-Use the MkDocs (_make docs_) tool to create build a docs site around markdown docs.
+![BMX_TEAMNL_VIDEO](https://iot.dev.hihva.nl/2021-2022-feb-jun/group-project/teamnl-bmx-windspeed-logging/iot-bmx-team-nl/BMX_TEAMNL.mp4)
 
-Follow the tutorial to add an existing project or create a project from scratch. The result will look like this project.
+## Team composition
 
+### Mortada M’Rabet
 
-## Features
-> How to use this project
+    500823653  
+    +31619714353  
+    m.mrabet2002@hotmail.com/mortada.mrabet@hva.nl  
 
-- **Follow the tutorial instructions**
-    - Install and configure a new or existing project.
-    - Run it locally.
-    - Deploy it.
-- **Add a copy of this project to your repos**
-    - [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
-- **View the live demo**
-    - This site is hosted on GitHub Pages. See if you like it. Other themes are available - see the tutorial.
+### Sem Huits
 
+    500829952  
+    +31618976106  
+    sem.huits@hva.nl  
 
-The aim here is not be complete or explain all concepts. It is to provide a reference for common steps and choices needed when setting up a docs site, but still at a beginner-friendly level.
+### Zakaria Mssaadi
 
-This guide is based on the [mkdocs.org](https://www.mkdocs.org/) tutorial.
+    500832095  
+    +31636516751  
+    zaka144-@outlook.com / zakaria.mssaadi@hva.nl  
+
+### Abdelrahman El-Khenizy
+
+    500854549  
+    +31628226294  
+    abdelrahman.el-khenizy@hva.nl  
+
+### Justin Witte
+
+    500842573  
+    +31620924969  
+    justin.witte@hva.nl  
+
+### Martin Brami
+
+    500892329  
+    +33651000673   
+    martin.brami@hva.nl  
