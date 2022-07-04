@@ -1,23 +1,45 @@
-### Site metadata ###
+# Replace the text below to customize your site
+site_name: Team-NL BMX Environment Documentation
+site_description: Documentation for IoT Team-NL BMX
+site_author: Justin Witte, Sem Huits, Zakaria Mssaadi, Martin Brami, Abdelrahman El-Khenizy, Mortada M'Rabet
+copyright: Copyright 2022 IoT Team-NL BMX - Creative Commons Attribution Non Commercial
 
-site_name: MkDocs Quickstart
-site_description: Starter template for a MkDocs docs site on GH Pages - including CI
-site_url: https://michaelcurrin.github.io/mkdocs-quickstart/
+site_url: https://localhost:8000/
+  
+theme:
+  name: material
+  palette:
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    scheme: slate
+    primary: deep orange
+    accent: red
+  font:
+    # See available fonts at https://fonts.google.com/
+    text: Open Sans
+    code: Ubuntu Mono
+  logo: assets/TeamNL_BMX_Icon.png
+  favicon: images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.instant
 
-repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart
-edit_uri: edit/master/docs/docs
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+      enabled: !ENV [ENABLED_GIT_REVISION_DATE, False]
 
-### Build settings ###
-
-theme: readthedocs
-
-nav:
-  - Home: index.md
-  - About MkDocs: about-mkdocs.md
-  - Tutorial:
-      - TL;DR: tutorial/tldr.md
-      - Installation: tutorial/installation.md
-      - Set up project: tutorial/setup-project.md
-      - Advanced: tutorial/advanced.md
-      - Usage: tutorial/usage.md
-      - Deploy: tutorial/deploy.md
+markdown_extensions:
+  - extra
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
